@@ -16,7 +16,7 @@ def insertionSort(l):
 
 for i in range(1,26):
     text=[]
-    path = "C:\\Users\\dj_si\\Desktop\\Top 50 Lyrics\\"+str(i)+".txt"
+    path = "Top 50 Lyrics\\"+str(i)+".txt"
     with open(path,'r') as fd:
         raw_text=fd.readlines()
     for j in range(len(raw_text)):
